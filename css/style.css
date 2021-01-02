@@ -1,0 +1,53 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/* navbar covid */
+.covid {
+  height: 50px;
+  background-color: rgb(53, 64, 90);
+}
+
+.covid p {
+  color: white;
+  /* margin-bottom: 0; */
+}
+
+.covid p a {
+  color: rgb(254, 221, 0);
+}
+/* //navbar covid */
+
+
+/* navbar top  */
+#navbar-top{
+  height: 30px;
+}
+.nav-item .nav-link{
+  font-size: 12px;
+}
+.nav-item a:hover{
+  color: #0064d2 !important;
+}
+.btn img, .dropdown-item img{
+    width: 22px;
+    border: 1px solid gray;
+}
+/* //navbar top  */
+
+/* navbar bottom */
+#navabr-bottom{
+  background-color: white !important;
+}
+/* //navbar bottom */
+
+/* jumbotron carausel */
+.jumbotron{
+  background-color: #0064d2;
+}
+/* //jumbotron carausel */
+
+/* card*/
+.card{
+  margin-top: -90px; 
+}
+/* //card */
