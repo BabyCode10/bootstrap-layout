@@ -2,17 +2,17 @@
   font-family: "Open Sans", sans-serif;
 }
 /* navbar covid */
-.covid {
+#covid-navbar {
   height: 50px;
   background-color: rgb(53, 64, 90);
 }
 
-.covid p {
+#covid-navbar p {
   color: white;
   /* margin-bottom: 0; */
 }
 
-.covid p a {
+#covid-navbar p a {
   color: rgb(254, 221, 0);
 }
 /* //navbar covid */
@@ -72,18 +72,6 @@
   width: 85px;
 }
 
-#title-img .title-img-items p {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-#title-img .title-img-items img {
-  width: 76px;
-}
-
-#title-img .title-img-items:not(:first-child) {
-  margin-left: 15px;
-}
 #title-img .title-img-items:hover {
   background-color: rgba(179, 176, 176, 0.2);
   border: 1px solid rgb(0, 100, 210);
@@ -149,107 +137,45 @@
 /* footer */
 
 /* footer top */
-.footer .footer-top {
-  padding: 45px 10px;
-  margin: 0 auto;
-}
-
 .footer-content {
   width: 320px;
 }
 
-.footer-content img {
-  width: 185px;
-}
-
-.footer-content .footer-content-items {
-  display: flex;
-  align-items: center;
-  margin-top: 5%;
-}
-
-.footer-content .footer-content-items img {
-  width: 40px;
-  height: 40px;
-}
-
 .span-gray {
   color: #58627a;
-  display: block;
 }
 .footer-content .footer-content-items .footer-text span {
   font-size: 14px;
-  margin-left: 5px;
-}
-
-.footer .footer-list {
-  width: 215px;
-}
-
-.footer .footer-list ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer .footer-list ul li {
-  margin-bottom: 5px;
 }
 
 .footer .footer-list ul li a {
-  text-decoration: none;
   color: #58627a;
   font-size: 14px;
 }
 .footer .footer-list ul li a:hover {
   color: #0064d2;
 }
-
 /* //footer top */
 
 /* footer middel */
-.footer-middel {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.footer-middel .wonderfull-indonesia {
+/* .footer-middel .wonderfull-indonesia {
   display: flex;
   margin: auto 0;
-}
-
-.footer-middel .wonderfull-indonesia img {
-  width: 148px;
-}
+} */
 
 .footer-middel .wonderfull-indonesia span {
-  margin-left: 8px;
   font-size: 10px;
   color: #58627a;
 }
 
-.footer-middel .footer-middle-items {
-  display: inline;
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
 .footer-middel .footer-middle-items h3 {
   font-size: 16px;
   color: #35405a;
-  margin-bottom: 25px;
-}
-
-.footer-middel .footer-middle-items img {
-  height: 27px;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .footer-middel .footer-middle-items a i {
   font-size: 30px;
   color: #58627a;
-  margin-right: 7px;
-  margin-bottom: 7px;
 }
 
 .footer-middel .footer-middle-items a i:hover {
@@ -257,9 +183,11 @@
 }
 /* //footer middel */
 
+/* footer bottom */
 .footer-buttom {
   font-size: 14px;
   color: #35405a;
+  /* footer bottom */
 }
 /* //footer */
 
@@ -274,10 +202,6 @@
   border-radius: 50px;
   z-index: 2000;
   cursor: pointer;
-}
-
-.help-center-button .help-center-image-container img {
-  width: 42px;
 }
 /* //help center */
 
@@ -306,45 +230,12 @@
   }
   /* //hidden web screen */
 
-  .mobile{
-    top: 0;
-    position: absolute;
-  }
-
   .navbar-mobile-top {
     background-color: rgb(0, 100, 210);
   }
 
-  .navbar-mobile-buttom {
-    background-color: white;
-  }
-
-  .navbar-mobile-buttom button {
-    background-color: transparent;
-    border: none;
-    display: block;
-  }
-
-  .navbar-mobile-buttom-items {
-    display: grid;
-    align-content: center;
-  }
-
   .navbar-mobile-buttom-items span {
     font-size: 10px;
-  }
-
-  .navbar-mobile-top img {
-    width: 110px;
-  }
-
-  .navbar-mobile-top button {
-    background-color: transparent;
-    border: none;
-  }
-
-  .navbar-mobile-top button i {
-    color: white;
   }
 
   .jumbotron-mobile {
@@ -355,15 +246,9 @@
     color: #35405a;
   }
 
-  .container-mobile .row .col-3 h6{
+  .container-mobile .row .col-3 h6 {
     font-size: 11px;
   }
-
-  .cotainer-mobile-card img {
-    width: 76px;
-  }
-
-  
 
   .text-box-mobile p {
     font-size: 12px;
@@ -375,14 +260,9 @@
     background-color: #0064d2;
     color: white;
     font-size: 12px;
-    /* height: 30px;
-    border: none;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px; */
   }
 
-  .text-box-mobile button:hover{
+  .text-box-mobile button:hover {
     background-color: #064e9b;
   }
 
@@ -390,5 +270,4 @@
   .harga-mobile {
     color: #35405a;
   }
-
 }
